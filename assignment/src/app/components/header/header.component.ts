@@ -12,7 +12,12 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  toggleAddTask() {
-    console.log('toggleAddTask');
+  loginPage() {
+    //ADD LOGIN PAGE ROUTE HERE
+    //href = '/login';
+    console.log('logInPage');
+  }
+  routeToAddress(): void {
+    console.log('Home');
   }
 }
