@@ -1,0 +1,21 @@
+<form [formGroup]="profileForm">
+
+  <div class="box">
+    <label for="username">Username: </label>
+    <input id="username" type="text" formControlName="username">
+
+  </div>
+  <div class="box">
+    <label for="password">Password: </label>
+    <input id="password" type="password" formControlName="password">
+  </div>
+
+  <div class="box">
+    <label for="timeGUID">Time GUID: </label>
+    <input id="timeeguid" type="password" formControlName="timeGUID">
+  </div>
+
+  <app-button color="green" text="Login" (btnClick)="UserLogin()">
+  </app-button>
+
+</form>
